@@ -1,4 +1,12 @@
 {
     "name": "prazzolthapa/mvc",
-    "require": {}
+    "require": {},
+    "autoload":{
+        "psr-4":{
+    "Apps\\": "apps/",
+    "System": "system/"
+},
+"files":["helper/functions.php"]
+}
+
 }
