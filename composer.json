@@ -1,6 +1,8 @@
 {
     "name": "prazzolthapa/mvc",
-    "require": {},
+    "require": {
+        "symfony/var-dumper": "^4.2"
+    },
     "autoload":{
         "psr-4":{
     "Apps\\": "apps/",
